@@ -3,12 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:idcentral007.github.io:BIDVC:Alice",
+  "id": "did:web:idcentral007.github.io:user:Alice",
   "verificationMethod": [
     {
-      "id": "did:web:idcentral007.github.io:BIDVC:Alice#owner",
+      "id": "did:web:idcentral007.github.io:user:Alice#owner",
       "type": "JsonWebKey2020",
-      "controller": "did:web:idcentral007.github.io:BIDVC:Alice",
+      "controller": "did:web:idcentral007.github.io:user:Alice",
       "publicKeyJwk": {
         "kty": "EC",
         "crv": "secp256k1",
@@ -18,9 +18,9 @@
     }
   ],
   "authentication": [
-    "did:web:idcentral007.github.io:BIDVC:Alice#owner"
+    "did:web:idcentral007.github.io:user:Alice#owner"
   ],
   "assertionMethod": [
-    "did:web:idcentral007.github.io:BIDVC:Alice#owner"
+    "did:web:idcentral007.github.io:user:Alice#owner"
   ]
 }
